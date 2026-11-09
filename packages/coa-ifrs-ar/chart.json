@@ -1,0 +1,1492 @@
+[
+ {
+  "code": "1",
+  "ar": "الأصول",
+  "en": "Assets",
+  "level": 1,
+  "parent": null,
+  "type": "asset"
+ },
+ {
+  "code": "11",
+  "ar": "الأصول المتداولة",
+  "en": "Current assets",
+  "level": 2,
+  "parent": "1",
+  "type": "asset"
+ },
+ {
+  "code": "1101",
+  "ar": "النقد وما في حكمه",
+  "en": "Cash and cash equivalents",
+  "statement": "cash",
+  "cashflow": "cash",
+  "level": 3,
+  "parent": "11",
+  "type": "asset"
+ },
+ {
+  "code": "110101",
+  "ar": "الصندوق الرئيسي",
+  "en": "Main cash box",
+  "level": 4,
+  "parent": "1101",
+  "type": "asset"
+ },
+ {
+  "code": "110102",
+  "ar": "صناديق نقاط البيع",
+  "en": "POS cash drawers",
+  "level": 4,
+  "parent": "1101",
+  "type": "asset"
+ },
+ {
+  "code": "110103",
+  "ar": "البنك — الحساب الجاري",
+  "en": "Bank — current account",
+  "level": 4,
+  "parent": "1101",
+  "type": "asset"
+ },
+ {
+  "code": "110104",
+  "ar": "البنك — حساب نقاط البيع (K-Net)",
+  "en": "Bank — POS / K-Net",
+  "level": 4,
+  "parent": "1101",
+  "type": "asset"
+ },
+ {
+  "code": "110105",
+  "ar": "ودائع بنكية أقل من 3 أشهر",
+  "en": "Short-term deposits (<3m)",
+  "level": 4,
+  "parent": "1101",
+  "type": "asset"
+ },
+ {
+  "code": "110106",
+  "ar": "شيكات تحت التحصيل",
+  "en": "Cheques under collection",
+  "level": 4,
+  "parent": "1101",
+  "type": "asset"
+ },
+ {
+  "code": "1102",
+  "ar": "الذمم المدينة التجارية",
+  "en": "Trade receivables",
+  "statement": "receivables",
+  "cashflow": "wc",
+  "level": 3,
+  "parent": "11",
+  "type": "asset"
+ },
+ {
+  "code": "110201",
+  "ar": "العملاء",
+  "en": "Customers",
+  "level": 4,
+  "parent": "1102",
+  "type": "asset"
+ },
+ {
+  "code": "110202",
+  "ar": "أوراق القبض",
+  "en": "Notes receivable",
+  "level": 4,
+  "parent": "1102",
+  "type": "asset"
+ },
+ {
+  "code": "110203",
+  "ar": "مخصص الخسائر الائتمانية المتوقعة",
+  "en": "Allowance for expected credit losses (IFRS 9)",
+  "level": 4,
+  "parent": "1102",
+  "type": "asset"
+ },
+ {
+  "code": "1103",
+  "ar": "المخزون",
+  "en": "Inventories",
+  "statement": "inventory",
+  "cashflow": "wc",
+  "level": 3,
+  "parent": "11",
+  "type": "asset"
+ },
+ {
+  "code": "110301",
+  "ar": "مخزون بضاعة بغرض البيع",
+  "en": "Merchandise inventory",
+  "level": 4,
+  "parent": "1103",
+  "type": "asset"
+ },
+ {
+  "code": "110302",
+  "ar": "بضاعة بالطريق",
+  "en": "Goods in transit",
+  "level": 4,
+  "parent": "1103",
+  "type": "asset"
+ },
+ {
+  "code": "110303",
+  "ar": "مخصص تخفيض المخزون لصافي القيمة القابلة للتحقق",
+  "en": "Write-down to NRV (IAS 2)",
+  "level": 4,
+  "parent": "1103",
+  "type": "asset"
+ },
+ {
+  "code": "110320",
+  "ar": "إنتاج تحت التشغيل (WIP)",
+  "en": "Work in progress",
+  "level": 4,
+  "parent": "1103",
+  "type": "asset"
+ },
+ {
+  "code": "1104",
+  "ar": "مدفوعات مقدماً وأرصدة مدينة أخرى",
+  "en": "Prepayments and other receivables",
+  "statement": "prepay",
+  "cashflow": "wc",
+  "level": 3,
+  "parent": "11",
+  "type": "asset"
+ },
+ {
+  "code": "110401",
+  "ar": "مصروفات مدفوعة مقدماً",
+  "en": "Prepaid expenses",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "110402",
+  "ar": "سلف وقروض الموظفين",
+  "en": "Staff advances and loans",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "110403",
+  "ar": "العُهد النقدية",
+  "en": "Petty cash custodies",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "110404",
+  "ar": "دفعات مقدمة للموردين",
+  "en": "Advances to suppliers",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "110405",
+  "ar": "ضريبة القيمة المضافة — مدخلات",
+  "en": "VAT input",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "110406",
+  "ar": "تأمينات مستردة",
+  "en": "Refundable deposits",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "110407",
+  "ar": "قروض ممنوحة للغير",
+  "en": "Loans granted",
+  "level": 4,
+  "parent": "1104",
+  "type": "asset"
+ },
+ {
+  "code": "12",
+  "ar": "الأصول غير المتداولة",
+  "en": "Non-current assets",
+  "level": 2,
+  "parent": "1",
+  "type": "asset"
+ },
+ {
+  "code": "1201",
+  "ar": "الممتلكات والآلات والمعدات — التكلفة",
+  "en": "Property, plant and equipment — cost",
+  "statement": "ppe",
+  "cashflow": "inv",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120101",
+  "ar": "أراضي",
+  "en": "Land",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120102",
+  "ar": "مباني",
+  "en": "Buildings",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120103",
+  "ar": "آلات ومعدات",
+  "en": "Machinery and equipment",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120104",
+  "ar": "أثاث وتجهيزات ومعارض",
+  "en": "Furniture, fixtures and showrooms",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120105",
+  "ar": "أجهزة حاسب آلي ونقاط بيع",
+  "en": "Computers and POS hardware",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120106",
+  "ar": "سيارات ووسائل نقل",
+  "en": "Motor vehicles",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120107",
+  "ar": "تحسينات على مبانٍ مستأجرة",
+  "en": "Leasehold improvements",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "120108",
+  "ar": "أعمال رأسمالية قيد التنفيذ",
+  "en": "Capital work in progress",
+  "level": 4,
+  "parent": "1201",
+  "type": "asset"
+ },
+ {
+  "code": "1202",
+  "ar": "مجمع إهلاك الممتلكات والآلات والمعدات",
+  "en": "PP&E — accumulated depreciation",
+  "statement": "ppe",
+  "cashflow": "noncash",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120202",
+  "ar": "مجمع إهلاك المباني",
+  "en": "Acc. depreciation — buildings",
+  "level": 4,
+  "parent": "1202",
+  "type": "asset"
+ },
+ {
+  "code": "120203",
+  "ar": "مجمع إهلاك الآلات والمعدات",
+  "en": "Acc. depreciation — machinery",
+  "level": 4,
+  "parent": "1202",
+  "type": "asset"
+ },
+ {
+  "code": "120204",
+  "ar": "مجمع إهلاك الأثاث والتجهيزات",
+  "en": "Acc. depreciation — furniture",
+  "level": 4,
+  "parent": "1202",
+  "type": "asset"
+ },
+ {
+  "code": "120205",
+  "ar": "مجمع إهلاك الحاسب الآلي",
+  "en": "Acc. depreciation — computers",
+  "level": 4,
+  "parent": "1202",
+  "type": "asset"
+ },
+ {
+  "code": "120206",
+  "ar": "مجمع إهلاك السيارات",
+  "en": "Acc. depreciation — vehicles",
+  "level": 4,
+  "parent": "1202",
+  "type": "asset"
+ },
+ {
+  "code": "120207",
+  "ar": "مجمع إهلاك التحسينات",
+  "en": "Acc. depreciation — improvements",
+  "level": 4,
+  "parent": "1202",
+  "type": "asset"
+ },
+ {
+  "code": "1203",
+  "ar": "أصول حق الاستخدام",
+  "en": "Right-of-use assets (IFRS 16)",
+  "statement": "rou",
+  "cashflow": "inv",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120301",
+  "ar": "أصول حق الاستخدام — معارض ومستودعات",
+  "en": "Right-of-use — showrooms and warehouses",
+  "level": 4,
+  "parent": "1203",
+  "type": "asset"
+ },
+ {
+  "code": "120302",
+  "ar": "مجمع إهلاك أصول حق الاستخدام",
+  "en": "Acc. depreciation — right-of-use",
+  "cashflow": "noncash",
+  "level": 4,
+  "parent": "1203",
+  "type": "asset"
+ },
+ {
+  "code": "1204",
+  "ar": "الأصول غير الملموسة",
+  "en": "Intangible assets (IAS 38)",
+  "statement": "intang",
+  "cashflow": "inv",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120401",
+  "ar": "برامج وأنظمة وتراخيص",
+  "en": "Software and licences",
+  "level": 4,
+  "parent": "1204",
+  "type": "asset"
+ },
+ {
+  "code": "120402",
+  "ar": "الشهرة",
+  "en": "Goodwill (IFRS 3)",
+  "level": 4,
+  "parent": "1204",
+  "type": "asset"
+ },
+ {
+  "code": "120403",
+  "ar": "مجمع الإطفاء",
+  "en": "Accumulated amortisation",
+  "cashflow": "noncash",
+  "level": 4,
+  "parent": "1204",
+  "type": "asset"
+ },
+ {
+  "code": "1205",
+  "ar": "استثمارات عقارية",
+  "en": "Investment property (IAS 40)",
+  "statement": "invprop",
+  "cashflow": "inv",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120501",
+  "ar": "استثمارات عقارية",
+  "en": "Investment property",
+  "level": 4,
+  "parent": "1205",
+  "type": "asset"
+ },
+ {
+  "code": "1206",
+  "ar": "استثمارات في أدوات مالية",
+  "en": "Financial investments (IFRS 9)",
+  "statement": "fininv",
+  "cashflow": "inv",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120601",
+  "ar": "بالقيمة العادلة من خلال الدخل الشامل الآخر",
+  "en": "At FVOCI",
+  "level": 4,
+  "parent": "1206",
+  "type": "asset"
+ },
+ {
+  "code": "120602",
+  "ar": "بالتكلفة المطفأة",
+  "en": "At amortised cost",
+  "level": 4,
+  "parent": "1206",
+  "type": "asset"
+ },
+ {
+  "code": "1207",
+  "ar": "أصول ضريبية مؤجلة",
+  "en": "Deferred tax assets (IAS 12)",
+  "statement": "dta",
+  "cashflow": "noncash",
+  "level": 3,
+  "parent": "12",
+  "type": "asset"
+ },
+ {
+  "code": "120701",
+  "ar": "أصول ضريبية مؤجلة",
+  "en": "Deferred tax assets",
+  "level": 4,
+  "parent": "1207",
+  "type": "asset"
+ },
+ {
+  "code": "2",
+  "ar": "الخصوم",
+  "en": "Liabilities",
+  "level": 1,
+  "parent": null,
+  "type": "liability"
+ },
+ {
+  "code": "21",
+  "ar": "الخصوم المتداولة",
+  "en": "Current liabilities",
+  "level": 2,
+  "parent": "2",
+  "type": "liability"
+ },
+ {
+  "code": "2101",
+  "ar": "الذمم الدائنة التجارية",
+  "en": "Trade payables",
+  "statement": "payables",
+  "cashflow": "wc",
+  "level": 3,
+  "parent": "21",
+  "type": "liability"
+ },
+ {
+  "code": "210101",
+  "ar": "الموردون",
+  "en": "Suppliers",
+  "level": 4,
+  "parent": "2101",
+  "type": "liability"
+ },
+ {
+  "code": "210102",
+  "ar": "أوراق الدفع",
+  "en": "Notes payable",
+  "level": 4,
+  "parent": "2101",
+  "type": "liability"
+ },
+ {
+  "code": "2102",
+  "ar": "مستحقات وأرصدة دائنة أخرى",
+  "en": "Accruals and other payables",
+  "statement": "accruals",
+  "cashflow": "wc",
+  "level": 3,
+  "parent": "21",
+  "type": "liability"
+ },
+ {
+  "code": "210201",
+  "ar": "مصروفات مستحقة",
+  "en": "Accrued expenses",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210202",
+  "ar": "رواتب وأجور مستحقة",
+  "en": "Salaries payable",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210203",
+  "ar": "دفعات مقدمة من العملاء (التزامات عقود)",
+  "en": "Contract liabilities (IFRS 15)",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210204",
+  "ar": "ضريبة القيمة المضافة — مخرجات",
+  "en": "VAT output",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210205",
+  "ar": "ضرائب ورسوم حكومية مستحقة",
+  "en": "Government levies payable",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210206",
+  "ar": "عمولات مناديب مستحقة",
+  "en": "Sales commissions payable",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210207",
+  "ar": "بضاعة مستلمة لم ترد فواتيرها (GRNI)",
+  "en": "Goods received not invoiced",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210208",
+  "ar": "زكاة مستحقة الدفع",
+  "en": "Zakat payable",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210209",
+  "ar": "حصة مؤسسة الكويت للتقدم العلمي المستحقة",
+  "en": "KFAS payable",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "210210",
+  "ar": "ضريبة دعم العمالة الوطنية المستحقة",
+  "en": "NLST payable",
+  "level": 4,
+  "parent": "2102",
+  "type": "liability"
+ },
+ {
+  "code": "2103",
+  "ar": "قروض وتسهيلات قصيرة الأجل",
+  "en": "Short-term borrowings",
+  "statement": "stloans",
+  "cashflow": "fin",
+  "level": 3,
+  "parent": "21",
+  "type": "liability"
+ },
+ {
+  "code": "210301",
+  "ar": "تسهيلات بنكية / سحب على المكشوف",
+  "en": "Bank facilities / overdraft",
+  "level": 4,
+  "parent": "2103",
+  "type": "liability"
+ },
+ {
+  "code": "210302",
+  "ar": "الجزء المتداول من القروض طويلة الأجل",
+  "en": "Current portion of long-term loans",
+  "level": 4,
+  "parent": "2103",
+  "type": "liability"
+ },
+ {
+  "code": "2104",
+  "ar": "التزامات الإيجار — متداولة",
+  "en": "Lease liabilities — current",
+  "statement": "leasecur",
+  "cashflow": "fin",
+  "level": 3,
+  "parent": "21",
+  "type": "liability"
+ },
+ {
+  "code": "210401",
+  "ar": "التزامات الإيجار — متداولة",
+  "en": "Lease liabilities — current",
+  "level": 4,
+  "parent": "2104",
+  "type": "liability"
+ },
+ {
+  "code": "2105",
+  "ar": "مخصصات متداولة",
+  "en": "Current provisions (IAS 37)",
+  "statement": "provcur",
+  "cashflow": "wc",
+  "level": 3,
+  "parent": "21",
+  "type": "liability"
+ },
+ {
+  "code": "210501",
+  "ar": "مخصص ضمانات ومرتجعات",
+  "en": "Warranty and returns provision",
+  "level": 4,
+  "parent": "2105",
+  "type": "liability"
+ },
+ {
+  "code": "22",
+  "ar": "الخصوم غير المتداولة",
+  "en": "Non-current liabilities",
+  "level": 2,
+  "parent": "2",
+  "type": "liability"
+ },
+ {
+  "code": "2201",
+  "ar": "قروض طويلة الأجل",
+  "en": "Long-term borrowings",
+  "statement": "ltloans",
+  "cashflow": "fin",
+  "level": 3,
+  "parent": "22",
+  "type": "liability"
+ },
+ {
+  "code": "220101",
+  "ar": "قروض بنكية طويلة الأجل",
+  "en": "Long-term bank loans",
+  "level": 4,
+  "parent": "2201",
+  "type": "liability"
+ },
+ {
+  "code": "2202",
+  "ar": "التزامات الإيجار — غير متداولة",
+  "en": "Lease liabilities — non-current",
+  "statement": "leasenc",
+  "cashflow": "fin",
+  "level": 3,
+  "parent": "22",
+  "type": "liability"
+ },
+ {
+  "code": "220201",
+  "ar": "التزامات الإيجار — غير متداولة",
+  "en": "Lease liabilities — non-current",
+  "level": 4,
+  "parent": "2202",
+  "type": "liability"
+ },
+ {
+  "code": "2203",
+  "ar": "مخصص مكافأة نهاية الخدمة",
+  "en": "Employees end-of-service benefits (IAS 19)",
+  "statement": "eosb",
+  "cashflow": "noncash",
+  "level": 3,
+  "parent": "22",
+  "type": "liability"
+ },
+ {
+  "code": "220301",
+  "ar": "مخصص مكافأة نهاية الخدمة",
+  "en": "End-of-service provision",
+  "level": 4,
+  "parent": "2203",
+  "type": "liability"
+ },
+ {
+  "code": "2204",
+  "ar": "التزامات ضريبية مؤجلة",
+  "en": "Deferred tax liabilities",
+  "statement": "dtl",
+  "cashflow": "noncash",
+  "level": 3,
+  "parent": "22",
+  "type": "liability"
+ },
+ {
+  "code": "220401",
+  "ar": "التزامات ضريبية مؤجلة",
+  "en": "Deferred tax liabilities",
+  "level": 4,
+  "parent": "2204",
+  "type": "liability"
+ },
+ {
+  "code": "3",
+  "ar": "حقوق الملكية",
+  "en": "Equity",
+  "level": 1,
+  "parent": null,
+  "type": "equity"
+ },
+ {
+  "code": "31",
+  "ar": "رأس المال",
+  "en": "Share capital",
+  "level": 2,
+  "parent": "3",
+  "type": "equity"
+ },
+ {
+  "code": "3101",
+  "ar": "رأس المال المصدر والمدفوع",
+  "en": "Issued and paid-up capital",
+  "statement": "capital",
+  "cashflow": "fin",
+  "level": 3,
+  "parent": "31",
+  "type": "equity"
+ },
+ {
+  "code": "310101",
+  "ar": "رأس المال المدفوع",
+  "en": "Paid-up capital",
+  "level": 4,
+  "parent": "3101",
+  "type": "equity"
+ },
+ {
+  "code": "32",
+  "ar": "الاحتياطيات",
+  "en": "Reserves",
+  "level": 2,
+  "parent": "3",
+  "type": "equity"
+ },
+ {
+  "code": "3201",
+  "ar": "الاحتياطيات",
+  "en": "Reserves",
+  "statement": "reserves",
+  "cashflow": "none",
+  "level": 3,
+  "parent": "32",
+  "type": "equity"
+ },
+ {
+  "code": "320101",
+  "ar": "الاحتياطي الإجباري (القانوني)",
+  "en": "Statutory reserve",
+  "level": 4,
+  "parent": "3201",
+  "type": "equity"
+ },
+ {
+  "code": "320102",
+  "ar": "الاحتياطي الاختياري",
+  "en": "Voluntary reserve",
+  "level": 4,
+  "parent": "3201",
+  "type": "equity"
+ },
+ {
+  "code": "320103",
+  "ar": "احتياطي القيمة العادلة",
+  "en": "Fair value reserve (OCI)",
+  "level": 4,
+  "parent": "3201",
+  "type": "equity"
+ },
+ {
+  "code": "33",
+  "ar": "الأرباح المرحلة",
+  "en": "Retained earnings",
+  "level": 2,
+  "parent": "3",
+  "type": "equity"
+ },
+ {
+  "code": "3301",
+  "ar": "الأرباح المرحلة",
+  "en": "Retained earnings",
+  "statement": "retained",
+  "cashflow": "none",
+  "level": 3,
+  "parent": "33",
+  "type": "equity"
+ },
+ {
+  "code": "330101",
+  "ar": "أرباح مرحلة من سنوات سابقة",
+  "en": "Retained earnings b/f",
+  "level": 4,
+  "parent": "3301",
+  "type": "equity"
+ },
+ {
+  "code": "330102",
+  "ar": "توزيعات أرباح معلنة",
+  "en": "Dividends declared",
+  "cashflow": "fin",
+  "level": 4,
+  "parent": "3301",
+  "type": "equity"
+ },
+ {
+  "code": "34",
+  "ar": "جاري الشركاء",
+  "en": "Partners current accounts",
+  "level": 2,
+  "parent": "3",
+  "type": "equity"
+ },
+ {
+  "code": "3401",
+  "ar": "جاري الشركاء والمسحوبات",
+  "en": "Partners current and drawings",
+  "statement": "drawings",
+  "cashflow": "fin",
+  "level": 3,
+  "parent": "34",
+  "type": "equity"
+ },
+ {
+  "code": "340101",
+  "ar": "جاري الشركاء",
+  "en": "Partners current account",
+  "level": 4,
+  "parent": "3401",
+  "type": "equity"
+ },
+ {
+  "code": "4",
+  "ar": "الإيرادات",
+  "en": "Income",
+  "level": 1,
+  "parent": null,
+  "type": "revenue"
+ },
+ {
+  "code": "41",
+  "ar": "إيرادات العقود مع العملاء",
+  "en": "Revenue from contracts with customers (IFRS 15)",
+  "level": 2,
+  "parent": "4",
+  "type": "revenue"
+ },
+ {
+  "code": "4101",
+  "ar": "المبيعات والخدمات",
+  "en": "Sales and services",
+  "statement": "revenue",
+  "level": 3,
+  "parent": "41",
+  "type": "revenue"
+ },
+ {
+  "code": "410101",
+  "ar": "مبيعات البضاعة",
+  "en": "Sale of goods",
+  "level": 4,
+  "parent": "4101",
+  "type": "revenue"
+ },
+ {
+  "code": "410102",
+  "ar": "إيرادات الخدمات والتركيب",
+  "en": "Services and installation revenue",
+  "level": 4,
+  "parent": "4101",
+  "type": "revenue"
+ },
+ {
+  "code": "410103",
+  "ar": "مردودات المبيعات",
+  "en": "Sales returns",
+  "level": 4,
+  "parent": "4101",
+  "type": "revenue"
+ },
+ {
+  "code": "410104",
+  "ar": "الخصم المسموح به",
+  "en": "Sales discounts",
+  "level": 4,
+  "parent": "4101",
+  "type": "revenue"
+ },
+ {
+  "code": "42",
+  "ar": "إيرادات أخرى",
+  "en": "Other income",
+  "level": 2,
+  "parent": "4",
+  "type": "revenue"
+ },
+ {
+  "code": "4201",
+  "ar": "إيرادات تشغيلية أخرى",
+  "en": "Other operating income",
+  "statement": "otherinc",
+  "level": 3,
+  "parent": "42",
+  "type": "revenue"
+ },
+ {
+  "code": "420101",
+  "ar": "أرباح استبعاد أصول ثابتة",
+  "en": "Gain on disposal of PP&E",
+  "cashflow": "noncash",
+  "level": 4,
+  "parent": "4201",
+  "type": "revenue"
+ },
+ {
+  "code": "420102",
+  "ar": "فوائض الجرد",
+  "en": "Inventory count surpluses",
+  "level": 4,
+  "parent": "4201",
+  "type": "revenue"
+ },
+ {
+  "code": "420103",
+  "ar": "إيرادات متنوعة",
+  "en": "Miscellaneous income",
+  "level": 4,
+  "parent": "4201",
+  "type": "revenue"
+ },
+ {
+  "code": "420104",
+  "ar": "الخصم المكتسب",
+  "en": "Purchase discounts received",
+  "level": 4,
+  "parent": "4201",
+  "type": "revenue"
+ },
+ {
+  "code": "4202",
+  "ar": "إيرادات تمويلية",
+  "en": "Finance income",
+  "statement": "fininc",
+  "level": 3,
+  "parent": "42",
+  "type": "revenue"
+ },
+ {
+  "code": "420201",
+  "ar": "إيرادات فوائد وعوائد ودائع",
+  "en": "Interest income",
+  "level": 4,
+  "parent": "4202",
+  "type": "revenue"
+ },
+ {
+  "code": "420202",
+  "ar": "أرباح فروق عملة",
+  "en": "Foreign exchange gains",
+  "level": 4,
+  "parent": "4202",
+  "type": "revenue"
+ },
+ {
+  "code": "5",
+  "ar": "المصروفات",
+  "en": "Expenses",
+  "level": 1,
+  "parent": null,
+  "type": "expense"
+ },
+ {
+  "code": "51",
+  "ar": "تكلفة المبيعات",
+  "en": "Cost of sales",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5101",
+  "ar": "تكلفة المبيعات",
+  "en": "Cost of sales",
+  "statement": "cogs",
+  "level": 3,
+  "parent": "51",
+  "type": "expense"
+ },
+ {
+  "code": "510101",
+  "ar": "تكلفة البضاعة المباعة",
+  "en": "Cost of goods sold",
+  "level": 4,
+  "parent": "5101",
+  "type": "expense"
+ },
+ {
+  "code": "510102",
+  "ar": "عجز وتلف المخزون",
+  "en": "Inventory shortages and damages",
+  "level": 4,
+  "parent": "5101",
+  "type": "expense"
+ },
+ {
+  "code": "510103",
+  "ar": "تخفيض المخزون لصافي القيمة القابلة للتحقق",
+  "en": "Inventory write-down to NRV",
+  "level": 4,
+  "parent": "5101",
+  "type": "expense"
+ },
+ {
+  "code": "510104",
+  "ar": "مصاريف شحن وتخليص المشتريات",
+  "en": "Freight-in and clearing",
+  "level": 4,
+  "parent": "5101",
+  "type": "expense"
+ },
+ {
+  "code": "510105",
+  "ar": "فروق أسعار المشتريات",
+  "en": "Purchase price variance",
+  "level": 4,
+  "parent": "5101",
+  "type": "expense"
+ },
+ {
+  "code": "5102",
+  "ar": "التكاليف الصناعية",
+  "en": "Manufacturing costs",
+  "statement": "cogs",
+  "level": 3,
+  "parent": "51",
+  "type": "expense"
+ },
+ {
+  "code": "510201",
+  "ar": "أجور التشغيل المباشرة — فعلية",
+  "en": "Direct labour — actual",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510202",
+  "ar": "مصروفات صناعية غير مباشرة — فعلية",
+  "en": "Factory overheads — actual",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510203",
+  "ar": "إهلاك وصيانة آلات المصنع",
+  "en": "Factory machinery depreciation & maintenance",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510204",
+  "ar": "أجور مباشرة محمّلة على الإنتاج",
+  "en": "Direct labour absorbed into production",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510205",
+  "ar": "أعباء صناعية محمّلة على الإنتاج",
+  "en": "Overheads absorbed into production",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510206",
+  "ar": "انحرافات تكاليف الإنتاج",
+  "en": "Production cost variances",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510207",
+  "ar": "تالف وهالك إنتاج غير طبيعي",
+  "en": "Abnormal production scrap (IAS 2.16)",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510208",
+  "ar": "أعباء صناعية غير مستوعبة / (زيادة تحميل)",
+  "en": "Under/(over) absorbed overheads (IAS 2.13)",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "510209",
+  "ar": "إهلاك آلات ومعدات المصنع",
+  "en": "Factory plant depreciation",
+  "cashflow": "noncash",
+  "level": 4,
+  "parent": "5102",
+  "type": "expense"
+ },
+ {
+  "code": "52",
+  "ar": "مصروفات البيع والتوزيع",
+  "en": "Selling and distribution expenses",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5201",
+  "ar": "مصروفات البيع والتوزيع",
+  "en": "Selling and distribution",
+  "statement": "selling",
+  "level": 3,
+  "parent": "52",
+  "type": "expense"
+ },
+ {
+  "code": "520101",
+  "ar": "عمولات البائعين والمناديب",
+  "en": "Sales commissions",
+  "level": 4,
+  "parent": "5201",
+  "type": "expense"
+ },
+ {
+  "code": "520102",
+  "ar": "دعاية وإعلان وتسويق",
+  "en": "Advertising and marketing",
+  "level": 4,
+  "parent": "5201",
+  "type": "expense"
+ },
+ {
+  "code": "520103",
+  "ar": "نقل وتوصيل للعملاء",
+  "en": "Delivery expenses",
+  "level": 4,
+  "parent": "5201",
+  "type": "expense"
+ },
+ {
+  "code": "520104",
+  "ar": "رواتب ومزايا فريق البيع",
+  "en": "Sales staff costs",
+  "level": 4,
+  "parent": "5201",
+  "type": "expense"
+ },
+ {
+  "code": "520105",
+  "ar": "عمولات بطاقات الدفع",
+  "en": "Card and K-Net charges",
+  "level": 4,
+  "parent": "5201",
+  "type": "expense"
+ },
+ {
+  "code": "53",
+  "ar": "المصروفات العمومية والإدارية",
+  "en": "General and administrative expenses",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5301",
+  "ar": "المصروفات العمومية والإدارية",
+  "en": "General and administrative",
+  "statement": "ga",
+  "level": 3,
+  "parent": "53",
+  "type": "expense"
+ },
+ {
+  "code": "530101",
+  "ar": "رواتب وأجور إدارية",
+  "en": "Administrative salaries",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530102",
+  "ar": "إيجارات قصيرة الأجل ومنخفضة القيمة",
+  "en": "Short-term and low-value leases",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530103",
+  "ar": "كهرباء وماء",
+  "en": "Utilities",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530104",
+  "ar": "اتصالات وإنترنت",
+  "en": "Telecommunication",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530105",
+  "ar": "إصلاح وصيانة",
+  "en": "Repairs and maintenance",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530106",
+  "ar": "رسوم حكومية وتراخيص",
+  "en": "Government fees and licences",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530107",
+  "ar": "أتعاب مهنية وتدقيق",
+  "en": "Professional and audit fees",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530108",
+  "ar": "مكافأة نهاية الخدمة",
+  "en": "End-of-service benefits expense",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530109",
+  "ar": "خسائر ائتمانية متوقعة",
+  "en": "Expected credit losses",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "530110",
+  "ar": "مصروفات متنوعة",
+  "en": "Miscellaneous expenses",
+  "level": 4,
+  "parent": "5301",
+  "type": "expense"
+ },
+ {
+  "code": "54",
+  "ar": "الإهلاك والإطفاء",
+  "en": "Depreciation and amortisation",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5401",
+  "ar": "الإهلاك والإطفاء",
+  "en": "Depreciation and amortisation",
+  "statement": "dep",
+  "cashflow": "noncash",
+  "level": 3,
+  "parent": "54",
+  "type": "expense"
+ },
+ {
+  "code": "540101",
+  "ar": "إهلاك الممتلكات والآلات والمعدات",
+  "en": "Depreciation — PP&E",
+  "level": 4,
+  "parent": "5401",
+  "type": "expense"
+ },
+ {
+  "code": "540102",
+  "ar": "إهلاك أصول حق الاستخدام",
+  "en": "Depreciation — right-of-use",
+  "level": 4,
+  "parent": "5401",
+  "type": "expense"
+ },
+ {
+  "code": "540103",
+  "ar": "إطفاء الأصول غير الملموسة",
+  "en": "Amortisation — intangibles",
+  "level": 4,
+  "parent": "5401",
+  "type": "expense"
+ },
+ {
+  "code": "55",
+  "ar": "تكاليف التمويل",
+  "en": "Finance costs",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5501",
+  "ar": "تكاليف التمويل",
+  "en": "Finance costs",
+  "statement": "fincost",
+  "level": 3,
+  "parent": "55",
+  "type": "expense"
+ },
+ {
+  "code": "550101",
+  "ar": "فوائد القروض والتسهيلات",
+  "en": "Interest on borrowings",
+  "level": 4,
+  "parent": "5501",
+  "type": "expense"
+ },
+ {
+  "code": "550102",
+  "ar": "فوائد التزامات الإيجار",
+  "en": "Interest on lease liabilities",
+  "level": 4,
+  "parent": "5501",
+  "type": "expense"
+ },
+ {
+  "code": "550103",
+  "ar": "عمولات ومصاريف بنكية",
+  "en": "Bank charges",
+  "level": 4,
+  "parent": "5501",
+  "type": "expense"
+ },
+ {
+  "code": "56",
+  "ar": "خسائر أخرى",
+  "en": "Other losses",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5601",
+  "ar": "خسائر أخرى",
+  "en": "Other losses",
+  "statement": "otherexp",
+  "level": 3,
+  "parent": "56",
+  "type": "expense"
+ },
+ {
+  "code": "560101",
+  "ar": "خسائر استبعاد أصول ثابتة",
+  "en": "Loss on disposal of PP&E",
+  "cashflow": "noncash",
+  "level": 4,
+  "parent": "5601",
+  "type": "expense"
+ },
+ {
+  "code": "560102",
+  "ar": "خسائر فروق عملة",
+  "en": "Foreign exchange losses",
+  "level": 4,
+  "parent": "5601",
+  "type": "expense"
+ },
+ {
+  "code": "57",
+  "ar": "الضرائب والاستقطاعات",
+  "en": "Taxes and statutory levies",
+  "level": 2,
+  "parent": "5",
+  "type": "expense"
+ },
+ {
+  "code": "5701",
+  "ar": "الضرائب والاستقطاعات",
+  "en": "Income tax and levies (IAS 12)",
+  "statement": "tax",
+  "level": 3,
+  "parent": "57",
+  "type": "expense"
+ },
+ {
+  "code": "570101",
+  "ar": "ضريبة الدخل / الزكاة",
+  "en": "Income tax / Zakat",
+  "level": 4,
+  "parent": "5701",
+  "type": "expense"
+ },
+ {
+  "code": "570102",
+  "ar": "حصة مؤسسة الكويت للتقدم العلمي",
+  "en": "KFAS contribution",
+  "level": 4,
+  "parent": "5701",
+  "type": "expense"
+ },
+ {
+  "code": "570103",
+  "ar": "ضريبة دعم العمالة الوطنية",
+  "en": "NLST",
+  "level": 4,
+  "parent": "5701",
+  "type": "expense"
+ },
+ {
+  "code": "570104",
+  "ar": "الزكاة (القانون 46 لسنة 2006)",
+  "en": "Zakat (Kuwait Law 46/2006)",
+  "level": 4,
+  "parent": "5701",
+  "type": "expense"
+ }
+]

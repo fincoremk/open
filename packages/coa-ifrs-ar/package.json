@@ -1,0 +1,16 @@
+{
+  "name": "@fincoremk/coa-ifrs-ar",
+  "version": "1.0.0",
+  "description": "Bilingual Arabic/English chart of accounts structured for IFRS statements — the seed chart FINCOREMK ships with.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": ["index.js", "chart.json", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["chart-of-accounts", "ifrs", "arabic", "accounting", "erp", "fincoremk"],
+  "author": "FINCOREMK (https://fincoremk.com)",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "https://github.com/fincoremk/open", "directory": "packages/coa-ifrs-ar" },
+  "homepage": "https://fincoremk.com/engineering/"
+}

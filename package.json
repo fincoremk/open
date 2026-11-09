@@ -1,0 +1,7 @@
+{
+  "name": "fincoremk-open",
+  "private": true,
+  "description": "Open-source building blocks from FINCOREMK — Arabic-first accounting & ERP from Kuwait.",
+  "scripts": { "test": "for p in packages/*; do (cd \"$p\" && node --test) || exit 1; done" },
+  "license": "MIT"
+}

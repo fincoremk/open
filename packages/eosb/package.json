@@ -1,0 +1,16 @@
+{
+  "name": "@fincoremk/eosb",
+  "version": "1.0.0",
+  "description": "End-of-service benefit (مكافأة نهاية الخدمة) calculator with rules as data — tiers, caps and resignation shares. Presets are examples; verify against your country’s law.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": ["index.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["end-of-service", "eosb", "gratuity", "payroll", "hr", "kuwait", "gcc", "fincoremk"],
+  "author": "FINCOREMK (https://fincoremk.com)",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "https://github.com/fincoremk/open", "directory": "packages/eosb" },
+  "homepage": "https://fincoremk.com/engineering/"
+}
