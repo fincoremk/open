@@ -6,7 +6,9 @@
 //   • seal / open — AES-256-GCM authenticated encryption with a key derived from a passphrase.
 //     Any change to the ciphertext, IV, salt or associated data makes `open` fail. Nothing is "decrypted wrong".
 
-const C = globalThis.crypto;
+// Node 18 has Web Crypto only at node:crypto.webcrypto (global `crypto` arrived in Node 19+); browsers and Node 19+ use the global.
+const C = (globalThis.crypto && globalThis.crypto.subtle) ? globalThis.crypto
+  : (typeof process !== 'undefined' && process.versions && process.versions.node ? (await import('node:crypto')).webcrypto : undefined);
 if (!C || !C.subtle) throw new Error('secure-box needs the Web Crypto API (crypto.subtle)');
 const enc = new TextEncoder(), dec = new TextDecoder();
 export const DEFAULT_ITERATIONS = 600_000;
